@@ -1,0 +1,168 @@
+body{
+	background-color:#DEB887;
+	font-size: 16px;
+	font-weight: bold;
+	 line-height: 1.6em;
+}
+
+
+h1{
+	color:purple;
+	font-family:Impact,Charcoal,sans-serif
+}
+
+a{
+	text-decoration: none;
+	color: purple;
+}
+
+a:hover{
+
+     color: red;
+}
+
+a:active{
+	color: green;
+}
+a:visited{
+	
+}
+
+.clr{
+	clear:both;
+}
+
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.box-1{
+	background-color:#FAEBD7;
+	border: 5px black solid;
+	border-width: 3px;
+	border-bottom-width:10px;
+	border-bottom-style:inherit;
+	padding: 20px;
+	margin-top: 20px;
+}
+.box-1 h1{
+	font-weight: 800;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+    word-spacing: 1em;
+    text-align: center;
+}
+.categories{
+	border: 1px #ff00ff solid;
+	padding: 10px;
+	border-radius: 20px;
+}
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding: 0;
+	padding-left: 20px;
+}
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #800000;
+}
+.my-form{
+	padding: 20px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea, .my-form select{
+	padding: 8px;
+	width: 50%;
+}
+.my-form input[type="email"]{
+	padding: 8px;
+	width: 50%;
+}
+.my-form input[type="number"]{
+	padding: 8px;
+	width: 50%;
+}
+.my-form input[type="date"]{
+	padding: 8px;
+	width: 50%
+	}
+.button{
+	background-color:#A52A2A;
+	color:#fff;
+	padding:10px 15px;
+	border: white solid;
+
+}
+.button:hover{
+	background: green;
+	color:#fff;
+}
+.target{
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	padding-left: 150px;
+}
+.block{
+	float:left;
+	width: 33.3%;
+	border: 2px solid #A52A2A;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float: left;
+	width: 70%;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color:#D2691E;
+	color:#fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+h3{
+	font-family:Impact;Charcoal,sans-serif;
+	color:#D2691E;
+	letter-spacing: 0.2em;
+}
+
+.p-box{
+	width:800px;
+	height: 500px;
+	border:2px solid #000;
+	margin-top: 30px;
+	padding: 50px;
+	font-size: 20px;
+	line-height: 200%;
+	padding-top: 150px;
+	background-image:url('../images/bgimage.jpg');
+	background-position: 200px 300px;
+	background-position: center center;
+}
+h4{
+	font-family: "MS Sans Serif","New York",sans-serif;
+	text-align:center;
+	font-size: 50px;
+}
+.fix-me{
+	position:fixed;
+	top: 400px;
+}
+.my-list li:nth-child(even){
+	background: white;
+}
+.my-list li:nth-child(odd){
+	background:#FF7F50;
+}
